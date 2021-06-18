@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css");
+i.fa.fa-search{
+    margin-left: 300px;
+}
+.main_img img{
+    width: 100px;
+    height: 100px;
+    margin-left: 125px;
+    margin-top: 30px;
+    border-radius: 10em;
+    box-shadow: 0px 0px 10px 10px rgb(180, 180, 180);
+}
+.main_title p{
+    margin-left: 128px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main_singer p{
+    margin-left: 150px;
+    margin-top: 0px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(179, 176, 176);
+}
+.Shuffle{
+    border: 2px solid #00000081;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 48px;
+    border-radius: 2em;
+    height: 20px;
+}
+.Shuffle p{
+    margin-top: 0px;
+}
+#ShuffleOrLike{
+    display: flex;
+}
+.Like{
+    border: 1px solid #f5c9c9;
+    box-shadow: 0px 0px 10px 10px rgb(238, 182, 182);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 20px;
+    height: 20px;
+    width: 70px;
+    border-radius: 2em;
+}
+.Like p{
+    margin-top: 0px;
+}
+.song img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 2em;
+}
+.acc {
+    display: flex;
+    margin-top: 10px;
+}
+.title_icon{
+    display: flex;
+}
+.icon i{   
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.title{
+    margin-left: 20px;
+}
+.artist{
+    color: rgb(202, 191, 191);
+    font-size: 15px;
+
+}
+.name{
+    color: black;
+    font-size: 20px;
+    font-size: bolder;
+}
+.icons{
+    color: white;
+}
+#play{
+    border: 1px solid #f5c9c9;
+    box-shadow: 0px 0px 10px 10px rgb(238, 182, 182);
+    margin-left: 40px;  
+    margin-top: 20px;
+    border-radius: 2em;
+    display: flex;
+    background-color: black;   
+    width: 260px;
+    height: 50px;
+    position: relative;
+}
+#play > span.smoke > span > span.player > p.player{
+    color: rgb(172, 168, 168);
+    font-size: 8px;
+    margin-left: 40px;
+    margin-top: 3px;
+    position: relative;
+
+    
+}
+.playsong{
+    color: white;
+    margin-left: 40px;
+    position: relative;
+}
+.icons{
+    margin-left: 70px;
+    margin-top: 11px;
+    position: relative;
+
+}
+#play > span.smoke > span > span.player > p:nth-child(2){
+    color:white;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
