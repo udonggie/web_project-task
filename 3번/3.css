@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css");
+#header > i.fa.fa-arrow-left{
+    margin-left: 10px;
+}
+#header > i.fa.fa-align-justify{
+    margin-left: 290px;
+}
+.main_img img{
+    width: 270px;      
+    margin-left: 37px;
+    margin-top: 35px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 0px 10px rgb(245, 156, 156);
+}
+.title p{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+}
+.artist p{
+    color: rgb(136, 136, 136);
+    margin-left: 130px;
+    font-size: 15px;
+    position: relative;
+}
+.time{
+    display: flex;
+    position: relative;
+    color: rgb(116, 116, 116);
+    top: 15px;
+    font-size: 13px;
+}
+#all > div.bar > span > p:nth-child(1){
+    margin-left: 30px;
+}
+#all > div.bar > span > p:nth-child(2){
+    margin-left: 230px;
+}
+.bar_img img{   
+    width: 300px;
+    margin-left: 22px;
+}
+#button{   
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#button > i.fa.fa-repeat{
+    color: rgb(156, 155, 155);
+    margin-left: 30px;
+}
+#button > i.fa.fa-step-backward{
+    margin-left: 20px;
+}
+#button > i.fa.fa-play-circle{
+    margin-left: 20px;
+}
+#button > i.fa.fa-step-forward{
+    margin-left: 20px;
+}
+#button > i.fa.fa-random{
+    margin-left: 20px;
+    color: rgb(156, 155, 155);
+}
